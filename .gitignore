@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+gnn_hotel_env/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# PyTorch / PyG
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Data (DO NOT COMMIT RAW DATA)
+# =========================
+data/raw/*
+data/processed/*
+data/graphs/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/graphs/.gitkeep
+
+# =========================
+# Results & Outputs
+# =========================
+results/figures/*
+results/models/*
+results/metrics/*
+
+!results/figures/.gitkeep
+!results/models/.gitkeep
+!results/metrics/.gitkeep
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Report build artifacts
+# =========================
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+cache/

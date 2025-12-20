@@ -1,0 +1,49 @@
+# =========================
+# Core Python & Utilities
+# =========================
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+tqdm==4.66.5
+loguru==0.7.2
+
+# =========================
+# Visualization
+# =========================
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# =========================
+# Machine Learning
+# =========================
+scikit-learn==1.5.1
+
+# =========================
+# PyTorch (install CUDA version manually if needed)
+# =========================
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# =========================
+# PyTorch Geometric
+# =========================
+torch-geometric==2.5.3
+
+# =========================
+# NLP & Transformers
+# =========================
+transformers==4.43.3
+tokenizers==0.19.1
+sentencepiece==0.2.0
+datasets==2.20.0
+
+# =========================
+# Arabic NLP
+# =========================
+camel-tools==1.5.4
+farasapy==0.0.14
+
+# =========================
+# Jupyter & Notebooks
+# ===========
