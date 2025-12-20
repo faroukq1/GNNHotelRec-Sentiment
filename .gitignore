@@ -1,4 +1,0 @@
-venv
-*.csv
-# Ignore all CSV files under data/ recursively
-data/**/*.csv
