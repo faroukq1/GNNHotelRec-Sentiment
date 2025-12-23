@@ -11,7 +11,7 @@ jsonl_files_skip = [
 ]
 
 jsonl_files = [
-    "gnn_balanced_results/gcn/gcn_results_balanced_ver2.jsonl"
+    "gnn_balanced_results/gat/gat_results_balanced_improved.jsonl"
 ]
 
 all_results = []
@@ -22,5 +22,5 @@ for file in jsonl_files:
 
 df = pd.DataFrame(all_results)
 
-df.to_csv("gnn_balanced_results/gcn/gcn_results_balanced_combine.csv", index=False)
-print("All results saved to gcn_results_balanced_combine.csv")
+df.to_csv("gnn_balanced_results/gat/gat_results_balanced_improved.csv", index=False)
+print("All results saved to gat_results_balanced_improved.csv")
