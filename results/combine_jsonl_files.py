@@ -2,11 +2,16 @@ import pandas as pd
 import json
 
 # List of your JSONL files
+jsonl_files_skip = [
+    "gnn_balanced_results/gat/gat_result_part_1_balanced_ver2.jsonl",
+    "gnn_balanced_results/gat/gat_result_part_2_balanced_ver2.jsonl",
+    "gnn_balanced_results/gat/gat_result_part_3_balanced_ver2.jsonl",
+    "gnn_balanced_results/gat/gat_result_part_4_balanced_ver2.jsonl",
+    "gnn_balanced_results/gat/gat_result_part_5_balanced_ver2.jsonl"
+]
+
 jsonl_files = [
-    "gnn_results/gat/gat_result_part_1.jsonl",
-    "gnn_results/gat/gat_result_part_2.jsonl",
-    "gnn_results/gat/gat_result_part_3.jsonl",
-    "gnn_results/gat/gat_result_part_4.jsonl",
+    "gnn_balanced_results/gcn/gcn_results_balanced_ver2.jsonl"
 ]
 
 all_results = []
@@ -17,5 +22,5 @@ for file in jsonl_files:
 
 df = pd.DataFrame(all_results)
 
-df.to_csv("gnn_results/gat/gat_results_combined.csv", index=False)
-print("All results saved to sage_results_combined.csv")
+df.to_csv("gnn_balanced_results/gcn/gcn_results_balanced_combine.csv", index=False)
+print("All results saved to gcn_results_balanced_combine.csv")
